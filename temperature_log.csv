@@ -1,2 +1,3 @@
 timestamp,last_updated,location,condition,temperature,feels_like,humidity,wind_speed
 2024-04-01 16:12,2024-04-01 17:00,London/United Kingdom,Light rain shower,11.0,9.0,87,6.1
+2024-04-01 16:16,2024-04-01 17:00,London/United Kingdom,Moderate or heavy rain shower,11.0,9.0,82,6.1
