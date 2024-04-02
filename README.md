@@ -1,0 +1,1 @@
+## This is a repository to support my Medium article "A simple guide to automate a Python script using GitHub Actions for free" https://medium.com/@phitzi/a-simple-guide-to-automate-a-python-script-using-github-actions-for-free-7a0040753e87
