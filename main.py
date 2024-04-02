@@ -6,7 +6,7 @@ from jinja2 import Template
 import os
 
 weather_api_key = os.environ["WEATHER_API_KEY"]
-location = 'London'
+location = 'Malta'
 csv_file = "temperature_log.csv"
 
 # Get the weather forcast
