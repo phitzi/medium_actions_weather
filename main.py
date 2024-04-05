@@ -9,7 +9,7 @@ weather_api_key = os.environ["WEATHER_API_KEY"]
 location = 'Malta'
 csv_file = "temperature_log.csv"
 
-# Get the weather forcast
+# Get the weather forecast
 url= f'http://api.weatherapi.com/v1/forecast.json?key={weather_api_key}&q={location}&days=4&aqi=no&alerts=no'
 response = requests.get(url)
 data = json.loads(response.text)
@@ -43,4 +43,4 @@ template = Template(html_template)
 html_output = template.render(data=data)
 
 #send the email
-send_email("Temprature Forecast Daily Email", html_output)
+send_email("Temperature Forecast Daily Email", html_output)
